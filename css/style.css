@@ -31,7 +31,7 @@ html{
     margin: 0px 5px;
 }
 
-.immagini,.articolo{
+.immagini,.articolo,.correlati{
     margin: 5px;
 }
 
@@ -58,4 +58,29 @@ th{
 
 .body-row{
     background-color: rgb(125, 193, 216);
+}
+
+.correlati>h3{
+    color: gray;
+}
+
+.correlato_1{
+    height: 250px;
+    width: 250px;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.correlato_2{
+    height: 250px;
+    width: 250px;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.correlati h4{
+    color: white;
+    padding: 15px;
 }
