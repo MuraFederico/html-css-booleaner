@@ -6,6 +6,10 @@ html{
     font-family: 'Times New Roman', Times, serif;
 }
 
+.padding{
+    padding: 0% 20%;
+}
+
 
 .testata{
     padding-top: 120px;
@@ -25,4 +29,33 @@ html{
 
 .titolo>h1{
     margin: 0px 5px;
+}
+
+.immagini,.articolo{
+    margin: 5px;
+}
+
+.ph-description{
+    margin: 0px;
+    font-size: 10px;
+}
+
+.evidenziato{
+    background-color: yellow;
+}
+
+.lista{
+    padding: 15px;
+}
+
+.head-row{
+    background-color: rgb(44, 44, 212);
+}
+
+th{
+    color: white;
+}
+
+.body-row{
+    background-color: rgb(125, 193, 216);
 }
