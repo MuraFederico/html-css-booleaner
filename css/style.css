@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.testata{
+    padding-top: 120px;
+    height: 170px;
+    background-color: rgb(52, 133, 160);
+    background-image: url(../img/pattern.png);
+}
+
+.logo{
+    height: 50px;
+}
+
+.titolo>p{
+    margin: 0px 5px;
+    color: gray;
+}
+
+.titolo>h1{
+    margin: 0px 5px;
+}
