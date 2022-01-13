@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.testata{
+    padding-top: 120px;
+    padding-left: 13%;
+    height: 170px;
+    background-color: rgb(52, 133, 160);
+    background-image: url(../img/pattern.png);
+}
+
+.bordo_testata{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.padding{
+    padding: 0% 20%;
+}
+
+.logo{
+    height: 50px;
+}
+
+.titolo>p{
+    margin: 0px 5px;
+    color: gray;
+}
+
+.titolo>h1{
+    margin: 0px 5px;
+}
+
+.immagini,.articolo,.correlati{
+    margin: 5px;
+}
+
+.ph-description{
+    margin: 0px;
+    font-size: 10px;
+}
+
+.evidenziato{
+    background-color: yellow;
+}
+
+.lista{
+    padding: 15px;
+}
+
+.head-row{
+    background-color: rgb(44, 44, 212);
+}
+
+th{
+    color: white;
+}
+
+.body-row{
+    background-color: rgb(125, 193, 216);
+}
+
+.correlati>h3{
+    color: gray;
+}
+
+.correlato_1{
+    height: 250px;
+    width: 250px;
+    background-image: url(../img/monitor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.correlato_2{
+    height: 250px;
+    width: 250px;
+    background-image: url(../img/graph.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.correlati h4{
+    color: white;
+    padding: 15px;
+}
